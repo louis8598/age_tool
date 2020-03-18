@@ -7,15 +7,10 @@ if country == '台灣':
         print('恭喜!你可以考駕照~')
     else:
         print('請到18歲再來考駕照~')
-elif country == '臺灣':
-    if age >= 18:
+elif country == '美國':
+    if age >= 16:
         print('恭喜!你可以考駕照~')
     else:
-        print('請到18歲再來考駕照~')
-elif country == 'taiwan':
-    if age >= 18:
-        print('恭喜!你可以考駕照~')
-    else:
-        print('請到18歲再來考駕照~')
+        print('請到16歲再來考駕照~')
 else:
-    print('你在台灣不允許考駕照')
+    print('你不允許考駕照!')
